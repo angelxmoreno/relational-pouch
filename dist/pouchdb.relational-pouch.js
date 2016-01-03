@@ -226,7 +226,7 @@ exports.setSchema = function (schema) {
     }
 
     doc.data = obj;
-
+    doc.doctype = typeInfo.singular;
     return doc;
   }
 
